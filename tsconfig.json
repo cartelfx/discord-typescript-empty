@@ -1,0 +1,23 @@
+{
+    "ts-node": {
+        "require": ["tsconfig-paths/register"]
+    },
+    
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "ESNext",
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "baseUrl": "./src",
+        "typeRoots": [
+        "node_modules/@types",
+        "source/@types"
+         ],
+        "paths": {
+            "@/base": ["./base"],
+            "@/models": ["./models"],
+            "@/handlers": ["./handlers"]
+        }
+    },
+    "include": ["src/**/*"]
+}
