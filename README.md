@@ -7,10 +7,10 @@ typescript dili ile yazılmış v14 boş altyapıdır düzenlenmesi gereken kıs
 import { Command } from "@/models";
 
 export default new Command({
-  name: "eval",
-  description: "sa karsm",
-  aliases: ["e"],
-  cooldown: 3,
+  name: "",
+  description: "",
+  aliases: ["c", "a", "r", "t" "e" "l"],
+  cooldown: 31,
   execute(client, message, args) {
 //KOMUT İÇERİĞİ
 },
